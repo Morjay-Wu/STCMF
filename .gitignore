@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Model weights / data / logs (not redistributed)
+*.pt
+*.pth
+*.ckpt
+data/raw/
+runs/
+outputs/
+*.log
